@@ -16,7 +16,9 @@ import os
 from datetime import datetime, timedelta
 
 # Set some variables (filepaths etc)
+# Set this to somewhere on disk it`s used for the temporary JSON file
 jsonFileName = 'c:\data\ServiceTags_Public.json'
+# Set this to somewhere on disk, it`s where the end CSV IP data will be written
 outputCSVFile = 'c:\\data\\transIPData.csv'
 
 # Funtion to pass to DF.Apply to get the start or end IP address of the CIDR range
